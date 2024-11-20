@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export function constructMetadata({
-    title = "Chris Alonzo",
+    title = "Pháp Nguyễn",
     description = "Sales Representative Turned Code Maestro",
     image = "/thumbnail.png",
     icons = "/logo.svg",
