@@ -16,7 +16,7 @@ export const HeaderBlock = () => {
         className="mb-4 size-14 rounded-full"
       />
       <h1 className="mb-3 md:mb-6 lg:mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-tight">
-        Hi, I&apos;m Nguyễn Trung Pháp
+        Hi, I'm Nguyễn Trung Pháp
       </h1>
       <nav className="flex items-center justify-between">
         <a

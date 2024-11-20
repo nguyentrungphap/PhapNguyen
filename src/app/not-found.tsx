@@ -52,7 +52,7 @@ export default function NotFound() {
             </div>
             <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center p-8">
                 <h1 className="text-center text-4xl font-black uppercase text-white sm:text-6xl md:text-8xl pb-6">
-                    You&apos;ve Enter into the void
+                    You've Enter into the void
                 </h1>
                 <Link href="/" className="pointer-events-auto z-10 bg-emerald-300 px-4 py-2 text-xl font-bold uppercase text-zinc-950 mix-blend-difference">
                     Go back

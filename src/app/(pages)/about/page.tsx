@@ -32,7 +32,7 @@ export default function AboutPage() {
                     <aside className="space-y-4">
                         <Reveal>
                             <p className="leading-relaxed text-zinc-300">
-                                Hi! 🤗 I&apos;m Pháp, I love to build things that solves
+                                Hi! 🤗 I'm Pháp, I love to build things that solves
                                 problems. I am a passionate front-end developer, committed to creating innovative solutions to everyday challenges. My stack of expertise includes:
                                 {" "}
                                 <span className="font-bold">
@@ -50,7 +50,7 @@ export default function AboutPage() {
                         <Reveal>
                             <p className="leading-relaxed text-zinc-300">
                                 I look forward to contributing my skills to a dynamic team.{" "}
-                                <span className="font-bold">Let&apos;s connect!</span>
+                                <span className="font-bold">Let's connect!</span>
                             </p>
                         </Reveal>
 

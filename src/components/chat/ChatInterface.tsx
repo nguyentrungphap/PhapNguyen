@@ -109,7 +109,7 @@ export const ChatInterface = ({
                     {history.length === 1 && (
                         <aside className="px-6 py-20 md:px-12 md:py-24">
                             <h1 className="text-2xl text-center leading-tight border rounded border-zinc-800 p-4">
-                                Hey <span className="font-bold text-emerald-300">I&apos;m Lonz</span>! Your AI Assistant ✨
+                                Hey <span className="font-bold text-emerald-300">I'm Lonz</span>! Your AI Assistant ✨
                             </h1>
                             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-8">
                                 {questions.map((q, i) => (
