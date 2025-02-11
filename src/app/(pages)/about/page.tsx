@@ -84,9 +84,9 @@ export default function AboutPage() {
                     <TechStacks />
                 </article>
             </section>
-            <motion.div ref={ref} style={{ scale, opacity }}>
+            {/* <motion.div ref={ref} style={{ scale, opacity }}>
                 <Testimonials />
-            </motion.div>
+            </motion.div> */}
         </main>
     )
 }

@@ -12,8 +12,8 @@ export const HeaderBlock = () => {
         quality={100}
         priority={true}
         src="/headshot.jpg"
-        alt="Christopher Alonzo Profile Picture"
-        className="mb-4 size-14 rounded-full"
+        alt="Nguyễn Trung Pháp"
+        className="mb-4 size-16 rounded-full"
       />
       <h1 className="mb-3 md:mb-6 lg:mb-12 text-xl md:text-2xl lg:text-4xl font-medium leading-tight">
         Hi, I'm Nguyễn Trung Pháp

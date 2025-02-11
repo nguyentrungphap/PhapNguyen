@@ -11,28 +11,10 @@ export const SocialsBlock = () => {
     <>
       <Block
         whileHover={{
-          rotate: "2.5deg",
-          scale: 1.1,
-        }}
-        className="group overflow-hidden col-span-6 bg-blue-500 md:col-span-3"
-      >
-        <Link
-          id="LinkedIn Profile"
-          aria-label="LinkedIn Profile"
-          href="https://www.linkedin.com/in/lonzochris"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="h-full grid place-items-center text-white overflow-hidden transition-all"
-        >
-          <SiLinkedin className="text-2xl md:text-4xl"/>
-        </Link>
-      </Block>
-      <Block
-        whileHover={{
           rotate: "-2.5deg",
-          scale: 1.1,
+          scale: 1,
         }}
-        className="group overflow-hidden col-span-6 bg-neutral-800 md:col-span-3"
+        className="group overflow-hidden col-span-6 bg-neutral-800 md:col-span-6"
       >
         <Link
           id="Github Profile"
