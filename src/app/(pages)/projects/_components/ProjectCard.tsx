@@ -15,7 +15,7 @@ interface ProjectCardProps {
   src: string;
   date: string;
   project: string;
-  videoUrl: string;
+  imageUrl: string;
   problems: string[];
   features: {
     title: string;
@@ -42,7 +42,7 @@ export const ProjectCard = ({
   src,
   date,
   project,
-  videoUrl,
+  imageUrl,
   problems,
   features,
   githubUrl,
@@ -93,7 +93,7 @@ export const ProjectCard = ({
           project={project}
           problems={problems}
           features={features}
-          videoUrl={videoUrl}
+          imageUrl={imageUrl}
           githubUrl={githubUrl}
           websiteUrl={websiteUrl}
           backendStacks={backendStacks}

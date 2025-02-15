@@ -9,7 +9,7 @@ interface ProjectDrawerContentProps {
     title: string;
     description: string;
   }[];
-  videoUrl: string;
+  imageUrl: string;
   githubUrl: string;
   websiteUrl: string;
   backendStacks: {
@@ -30,7 +30,7 @@ export const ProjectDrawerContent = ({
   project,
   problems,
   features,
-  videoUrl,
+  imageUrl,
   githubUrl,
   websiteUrl,
   backendStacks,
@@ -42,13 +42,7 @@ export const ProjectDrawerContent = ({
     <article className="mx-auto max-w-4xl space-y-4 text-zinc-700"
     >
       <aside className="h-full w-full border-2 border-zinc-500 rounded-lg">
-        <video
-          loop
-          muted
-          controls
-          src={videoUrl}
-          className="h-full w-full rounded-lg"
-        />
+        <img src={imageUrl} className="h-full w-full rounded-lg" />
       </aside>
       <aside className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="col-span-2">

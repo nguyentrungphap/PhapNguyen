@@ -22,10 +22,6 @@ const routes = [
     name: "projects",
     href: "/projects",
   },
-  {
-    name: "education",
-    href: "/awards",
-  },
 ]
 
 

@@ -52,14 +52,6 @@ export const SocialsBlock = () => {
         }}
         className="group overflow-hidden col-span-6 bg-rose-500 md:col-span-3"
       >
-        <Link
-          id="Awards & Education"
-          aria-label="Awards & Education"
-          href="/awards"
-          className="h-full grid place-items-center text-white overflow-hidden transition-all"
-        >
-          <FaGraduationCap className="text-2xl md:text-4xl" />
-        </Link>
       </Block>
     </>
   );
