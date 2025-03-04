@@ -2,7 +2,7 @@
 export const projects = [
     {
         id: 1,
-        project: "HIDIARCH STUDIO",
+        project: "Hidiarch Studio",
         date: "Jul 2024",
         imageUrl: "/images/hidiarchstudio.jpg",
         websiteUrl: "https://hidiarchstudio.com/",
@@ -83,10 +83,549 @@ export const projects = [
     },
     {
         id: 2,
+        project: "Restaurant",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://food-six-chi.vercel.app/",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 2,
         project: "Cargiant",
         date: "Jun 2024",
         imageUrl: "/images/cargiant.jpg",
         websiteUrl: "https://www.cargiant.co.uk/",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 3,
+        project: "Shop",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://ecommerce-web-black.vercel.app/login",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 3,
+        project: "Movie App",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://vercel.com/nguyentrungphaps-projects/movie-app",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 3,
+        project: "Weather App",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://weather-one-rho-15.vercel.app/",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 4 ,
+        project: "Calculator",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://todo-calculator-tsx.vercel.app/",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 5,
+        project: "Todo List",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://todo-list-sigma-seven-35.vercel.app/",
+        githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
+        shortDescription: "",
+        longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",
+        problems: [
+            "Difficulty in tracking inventory in real-time.",
+            "Lack of a modern user interface and user experience.",
+            "Inefficient communication between the front-end and back-end systems.",
+            "The existing inventory management system is not scalable.",
+        ],
+        features: [
+            {
+                title: "Modern and Responsive Front-End:",
+                description: "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+            },
+            {
+                title: "Strong Back-End:",
+                description: "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+            },
+            {
+                title: "User-Friendly Interface:",
+                description: "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+            }
+        ],
+        frontendStacks: [
+            {
+                name: "Vite",
+                path: "/tech/vite.svg"
+            },
+            {
+                name: "Javascript",
+                path: "/tech/javascript.svg"
+            },
+            {
+                name: "SASS",
+                path: "/tech/sass.svg"
+            },
+            {
+                name: "Axios",
+                path: "/tech/axios.svg"
+            }
+        ],
+        backendStacks: [
+            {
+                name: "Express",
+                path: "/tech/express.svg"
+            },
+            {
+                name: "SQL",
+                path: "/tech/sql.svg"
+            },
+            {
+                name: "Knex",
+                path: "/tech/knex.svg"
+            },
+            {
+                name: "Node",
+                path: "/tech/node.svg"
+            },
+            
+        ],
+        clientLibraries: [
+            {
+                name: "Git",
+                path: "/tech/git.svg"
+            },
+            {
+                name: "Jira",
+                path: "/tech/jira.svg"
+            }
+        ]
+    },
+    {
+        id: 5,
+        project: "Quiz",
+        date: "Jun 2024",
+        imageUrl: "/images/cargiant.jpg",
+        websiteUrl: "https://todo-quiz-e76n2etnr-nguyentrungphaps-projects.vercel.app/",
         githubUrl: "https://github.com/achris-alonzo30/south-american-horned-frog-instock",
         shortDescription: "",
         longDescription: "This is a collaborative project from BrainStation Software Engineering Bootcamp. In this project we use Git and GitHub for version control, Jira for project workflow and the Scrum methodology to manage the development process to build an Inventory Management System application.",

@@ -31,9 +31,9 @@ export const SocialsBlock = () => {
       <Block
         whileHover={{
           rotate: "-2.5deg",
-          scale: 1.1,
+          scale: 1,
         }}
-        className="group overflow-hidden col-span-6 bg-emerald-500 md:col-span-3"
+        className="group overflow-hidden col-span-6 bg-emerald-500 md:col-span-6"
       >
         <Link
           id="Projects"
@@ -44,14 +44,6 @@ export const SocialsBlock = () => {
           <FiBriefcase className="text-2xl md:text-4xl"/>
         </Link>
         
-      </Block>
-      <Block
-        whileHover={{
-          rotate: "2.5deg",
-          scale: 1.1,
-        }}
-        className="group overflow-hidden col-span-6 bg-rose-500 md:col-span-3"
-      >
       </Block>
     </>
   );
