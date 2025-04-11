@@ -14,11 +14,11 @@ interface ProjectShowcaseDrawerProps {
   setIsOpen: (isOpen: boolean) => void;
 }
 
-export const ProjectShowcaseDrawer = ({ 
-  isOpen, 
-  setIsOpen, 
-  children 
-} : ProjectShowcaseDrawerProps) => {
+export const ProjectShowcaseDrawer = ({
+  isOpen,
+  setIsOpen,
+  children,
+}: ProjectShowcaseDrawerProps) => {
   const [scope, animate] = useAnimate();
   const [drawerRef, { height }] = useMeasure();
   const y = useMotionValue(0);

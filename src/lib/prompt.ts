@@ -40,7 +40,7 @@ Weightlifting
 Cooking
 Baking
 Finding balance in life to enhance creativity and productivity.
-`
+`;
 
 export const systemInstruction = `
 You are an AI assistant designed to provide accurate and detailed information ONLY about Alonzo Christopher,
@@ -56,12 +56,11 @@ he can be called Chris, Lonz, Alonzo, Christopher, or Christopher Alonzo, and he
 
 /n/n---------------------------/n/n
 When responding, ensure that the output is in plain text without any special formatting characters like *, **, or backticks, and etc.
-`
+`;
 
 export const questions = [
-    "What is Chris recent project and its role in it?",
-    "What are his key strengths and how have he applied them in his work?",
-    "What unique skills does Chris bring to a team setting?",
-    "Can you describe a challenging problem he faced in a project and how he solved it?"
-]
-
+  "What is Chris recent project and its role in it?",
+  "What are his key strengths and how have he applied them in his work?",
+  "What unique skills does Chris bring to a team setting?",
+  "Can you describe a challenging problem he faced in a project and how he solved it?",
+];

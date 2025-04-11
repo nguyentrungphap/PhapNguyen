@@ -10,7 +10,6 @@ interface ProjectDrawerContentProps {
     description: string;
   }[];
   imageUrl: string;
-  githubUrl: string;
   websiteUrl: string;
   backendStacks: {
     path: string;
@@ -33,8 +32,7 @@ export const ProjectDrawerContent = ({
   longDescription,
 }: ProjectDrawerContentProps) => {
   return (
-    <article className="mx-auto max-w-4xl space-y-4 text-zinc-700"
-    >
+    <article className="mx-auto max-w-4xl space-y-4 text-zinc-700">
       <aside className="h-full w-full border-2 border-zinc-500 rounded-lg">
         <img src={imageUrl} className="h-full w-full rounded-lg" />
       </aside>
@@ -46,8 +44,8 @@ export const ProjectDrawerContent = ({
             <nav className="flex items-center gap-4">
               {websiteUrl.length > 0 ? (
                 <Link href={websiteUrl} target="_blank">
-                <FiGlobe className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
-              </Link>
+                  <FiGlobe className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
+                </Link>
               ) : (
                 <FiWifiOff className="h-5 w-5 hover:text-emerald-300 text-zinc-200 transition-all" />
               )}
@@ -60,6 +58,6 @@ export const ProjectDrawerContent = ({
           </main>
         </div>
       </aside>
-        </article>
-      );
-    };
+    </article>
+  );
+};

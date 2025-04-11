@@ -4,8 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-
-import { FiGithub, FiGlobe, FiCalendar } from "react-icons/fi";
+import { FiGlobe } from "react-icons/fi";
 
 import { Corners } from "@/components/Corners";
 import { ProjectDrawerContent } from "./ProjectDrawerContent";
@@ -20,7 +19,6 @@ interface ProjectCardProps {
     title: string;
     description: string;
   }[];
-  githubUrl: string;
   websiteUrl: string;
   backendStacks: {
     path: string;
@@ -43,7 +41,6 @@ export const ProjectCard = ({
   imageUrl,
   problems,
   features,
-  githubUrl,
   websiteUrl,
   backendStacks,
   frontendStacks,
@@ -64,9 +61,6 @@ export const ProjectCard = ({
           {shortDescription}
         </h2>
         <aside className="absolute flex items-center gap-4 right-3 top-4 z-10 text-2xl text-zinc-400 transition-colors group-hover:text-zinc-50">
-          <Link href={githubUrl} target="_blank">
-            <FiGithub className="text-base hover:text-emerald-300 transition-all" />
-          </Link>
           <Link href={websiteUrl} target="_blank">
             <FiGlobe className="text-base hover:text-emerald-300 transition-all" />
           </Link>
@@ -88,7 +82,6 @@ export const ProjectCard = ({
           problems={problems}
           features={features}
           imageUrl={imageUrl}
-          githubUrl={githubUrl}
           websiteUrl={websiteUrl}
           backendStacks={backendStacks}
           frontendStacks={frontendStacks}
