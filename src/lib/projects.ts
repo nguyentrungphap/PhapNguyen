@@ -182,6 +182,84 @@ export const projects = [
     ],
   },
   {
+    id: 912123123123123123,
+    project: "Book App",
+    imageUrl: "/images/bookapp.jpg",
+    websiteUrl: "https://blog-app-rouge-ten.vercel.app/",
+    shortDescription: "",
+    longDescription:
+      "QuizApp is a fun and interactive platform to test knowledge, track progress, and learn through diverse quizzes anytime, anywhere.",
+    problems: [
+      "Difficulty in tracking inventory in real-time.",
+      "Lack of a modern user interface and user experience.",
+      "Inefficient communication between the front-end and back-end systems.",
+      "The existing inventory management system is not scalable.",
+    ],
+    features: [
+      {
+        title: "Modern and Responsive Front-End:",
+        description:
+          "Developed a sleek, responsive front-end using React to ensure a seamless user experience across various devices.",
+      },
+      {
+        title: "Strong Back-End:",
+        description:
+          "Implemented a reliable back-end with Express, facilitating efficient API communication and data handling.",
+      },
+      {
+        title: "User-Friendly Interface:",
+        description:
+          "Designed an intuitive and user-friendly interface with Figma to enhance usability and accessibility.",
+      },
+    ],
+    frontendStacks: [
+      {
+        name: "Vite",
+        path: "/tech/vite.svg",
+      },
+      {
+        name: "Javascript",
+        path: "/tech/javascript.svg",
+      },
+      {
+        name: "SASS",
+        path: "/tech/sass.svg",
+      },
+      {
+        name: "Axios",
+        path: "/tech/axios.svg",
+      },
+    ],
+    backendStacks: [
+      {
+        name: "Express",
+        path: "/tech/express.svg",
+      },
+      {
+        name: "SQL",
+        path: "/tech/sql.svg",
+      },
+      {
+        name: "Knex",
+        path: "/tech/knex.svg",
+      },
+      {
+        name: "Node",
+        path: "/tech/node.svg",
+      },
+    ],
+    clientLibraries: [
+      {
+        name: "Git",
+        path: "/tech/git.svg",
+      },
+      {
+        name: "Jira",
+        path: "/tech/jira.svg",
+      },
+    ],
+  },
+  {
     id: 9123123123,
     project: "Food Delivery",
     imageUrl: "/images/food-delivary.jpg",
